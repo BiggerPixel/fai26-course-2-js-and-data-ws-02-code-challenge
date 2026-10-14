@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontrollera ett returärende</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body class="min-h-screen bg-amber-50 px-4 py-12 text-slate-900">
+    <main class="mx-auto max-w-xl rounded-2xl bg-white p-8 shadow-lg">
+      <p class="text-sm font-semibold uppercase tracking-wide text-amber-700">Returkontroll</p>
+      <h1 class="mt-2 text-3xl font-bold">Returärende</h1>
+
+      <dl class="mt-8 grid grid-cols-2 gap-x-6 gap-y-4">
+        <dt class="text-slate-500">Kund</dt>
+        <dd id="customer-name" class="text-right font-semibold">–</dd>
+
+        <dt class="text-slate-500">Produkt</dt>
+        <dd id="product-name" class="text-right font-semibold">–</dd>
+
+        <dt class="text-slate-500">Status</dt>
+        <dd id="return-status" class="text-right font-semibold text-amber-700">–</dd>
+
+        <dt class="border-t border-slate-200 pt-4 text-slate-700">Återbetalning</dt>
+        <dd id="refund-amount" class="border-t border-slate-200 pt-4 text-right text-xl font-bold">–</dd>
+      </dl>
+    </main>
+  </body>
+</html>
